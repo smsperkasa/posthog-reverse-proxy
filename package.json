@@ -1,0 +1,13 @@
+{
+  "name": "posthog-reverse-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker reverse proxy for PostHog",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^2.0.0"
+  }
+} 
